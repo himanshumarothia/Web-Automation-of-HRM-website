@@ -23,13 +23,13 @@ time.sleep(1)
 #login button 
 login = driver.find_element(By.XPATH,"//button[normalize-space()='Login']")
 login.click()
-time.sleep(5)
+time.sleep(7)
 
 
 #mouse hover to PIM
 pim = driver.find_element(By.XPATH,"//span[normalize-space()='PIM']")
 pim.click()
-time.sleep(4)
+time.sleep(5)
 
 #add button
 add_button = driver.find_element(By.XPATH,"//button[normalize-space()='Add']")
@@ -84,3 +84,4 @@ logout_button = driver.find_element(By.XPATH,"//a[normalize-space()='Logout']").
 
 #close the browser
 driver.quit()
+
